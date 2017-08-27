@@ -3,7 +3,7 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: /:title.html
+permalink: blogs/:title/
 paginate: 5
 gems: [jekyll-paginate]
 port: 3000
@@ -12,7 +12,7 @@ safe: true
 
 # edit here to achieve your personal greatness
 url: https://abhijeetkaur.github.io/
-baseurl: /
+baseurl: ""
 title: Abhijeet Kaur
 author: Abhijeet Kaur
 description: Personal blog and resume
@@ -24,7 +24,7 @@ twitter: abhijeetkaur
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 #disqus: username
-google_analytics: UA-69391421-1
+#google_analytics: UA-69391421-1
 
 
 # needed for travis-ci build
